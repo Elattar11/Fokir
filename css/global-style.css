@@ -1,0 +1,114 @@
+/* Global Attributes */
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root
+{
+    --prim-color:#ff305b;
+    --bg-nav:#333;
+    --bg-white:white;
+    --source-sans-pro: 'Source Sans Pro', sans-serif;
+    --roboto:"Roboto";
+    --container-w:80%;
+    --container-m:auto;
+    --position-relative:relative;
+    --position-absolute:absolute;
+    --f-left:left;
+    --f-right:right;
+    --w-100:100%;
+    --d-inline-block:inline-block;
+    --d-none:none;
+    --position-fixed:fixed;
+    --aspect:16/9;
+}
+.aspect-ratio
+{
+    aspect-ratio: var(--aspect);
+}
+.w-25
+{
+    width: 25%;
+}
+.position-fixed
+{
+    position: var(--position-fixed);
+}
+.d-none
+{
+    display: var(--d-none);
+}
+.d-inline-block
+{
+
+    display: var(--d-inline-block);
+}
+.w-100
+{
+    width: var(--w-100);
+}
+.f-left
+{
+    float: left;
+}
+.f-right
+{
+    float: right;
+}
+.position-relative
+{
+    position: var(--position-relative);
+}
+.position-absolute
+{
+    position: var(--position-absolute);
+}
+.bg-nav
+{
+    background-color: var(--bg-nav);
+}
+
+.bg-prim-color
+{
+    background-color: var(--prim-color);
+}
+
+.bg-white
+{
+    background-color: var(--bg-white);
+}
+.prim-color
+{
+    color: var(--prim-color);
+    
+}
+
+.f-roboto
+{
+    font-family: var(--roboto);
+}
+.f-source
+{
+    font-family: var(--source-sans-pro);
+    
+}
+.container
+{
+    width: var(--container-w);
+    margin: var(--container-m);
+}
+.clear-float
+{
+    clear: both;
+}
+
+.text-center
+{
+    text-align: center;
+}
+.pt
+{
+    padding: 70px 0;
+}
